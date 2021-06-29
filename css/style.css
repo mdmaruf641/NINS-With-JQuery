@@ -1,0 +1,559 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+img{
+  vertical-align: middle;
+}
+html{
+  scroll-behavior: smooth;
+}
+.clr{
+  clear: both;
+}
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/*=====HEADER SECTION START=====*/
+
+#header .logo{
+  width: 70%;
+  float: left;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+#header .logo span {
+  font-size: 25px;
+  color: #3ca2a2;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+#header .phone h4 {
+  font-size: 23px;
+  color: #cc0611;
+  letter-spacing: 1px;
+}
+
+#header .phone {
+  width: 30%;
+  float: left;
+  text-align: end;
+  margin-top: 35px;
+}
+
+/*=====HEADER SECTION END=====*/
+
+/*=====NAV SECTION START=====*/
+
+#nav{
+  background: #cc0611;
+  height: 50px;
+}
+
+#nav .menu-items {
+  width: 88%;
+  float: left;
+}
+
+#nav .icon {
+  width: 12%;
+  float: left;
+}
+
+#nav .menu li {
+  float: left;
+}
+
+#nav .menu li a{
+  font-size: 18px;
+  color: #fff;
+  line-height: 50px;
+  padding: 0 15px;
+  display: inline-block;
+  transition: .2s;
+}
+
+#nav .menu li a:hover{
+  background: #f18d26;
+  
+}
+
+#nav .icon{
+  text-align: end;
+  padding-top: 10px;
+}
+
+#nav .icon a {
+  padding-left: 14px;
+}
+
+#nav .icon i::before{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #cc0611;
+  display: inline-block;
+  transition: .5s;
+}
+
+#nav .icon a:hover i:before{
+  transform: rotate(360deg);
+}
+
+
+
+/*=====NAV SECTION END=====*/
+
+/*=====BANNER SECTION START=====*/
+
+.banner{
+  padding: 75px 0;
+  background: url(../img/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner2{
+  background: url(../img/banner3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button.bnnr-cng-btn {
+  position: absolute;
+  padding: 5px 15px;
+  background: #92c7a3;
+  border: navajowhite;
+  font-size: 16px;
+  color: #215a6d;
+  border-radius: 5px;
+  cursor: pointer;
+  top: 325px;
+  left: 1168px;
+  font-weight: 700;
+}
+
+.banner h3 {
+  font-size: 36px;
+  color: #215a6d;
+  font-weight: 500;
+}
+
+.banner h1 {
+  font-size: 48px;
+  color: #215a6d;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.banner p {
+  font-size: 17px;
+  width: 265px;
+  color: #215a6d;
+  margin-bottom: 55px;
+}
+
+.banner .btn a {
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 24px;
+  background: #92c7a3;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+
+.banner .btn a:hover{
+  background: transparent;
+  border: 2px solid #cc0611;
+  color: #215a6d;
+}
+
+.banner .ban-content{
+  position: relative;
+}
+
+.banner .ban-content img{
+  position: absolute;
+  top: -18px;
+  right: 0%;
+}
+/*=====BANNER SECTION END=====*/
+
+/*=====ABOUT SECTION START=====*/
+
+#about{
+  padding: 50px 0 90px 0;
+}
+
+#about .about-items{
+  text-align: center;
+}
+
+#about .about-info{
+  width: 33.33%;
+  float: left;
+  padding: 0 29px;
+}
+
+#about .about-info h3{
+  font-size: 22px;
+  color: #3ca2a2;
+  font-weight: 700;
+}
+
+#about .about-info img{
+  padding: 25px 0 15px 0;
+}
+
+
+#about .about-info p{
+  font-size: 15px;
+  color: #215a6d;
+  margin-bottom: 25px;
+}
+
+#about .about-info i{
+  color: #cc0611;
+  padding-right: 10px;
+}
+
+#about .about-info a{
+  color: #92c7a3;
+}
+
+/*=====ABOUT SECTION END=====*/
+
+/*=====NOTICE BOARD SECTION START=====*/
+
+#notice{
+  background: #dfece6;
+  padding: 30px 0;
+}
+
+ h2{
+  font-size: 30px;
+  color: #215a6d;
+  border-bottom: 2px solid #fff;
+  position: relative;
+}
+
+
+ h2::after{
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 55px;
+  background: #cc0611;
+  top: 41px;
+  left: 0;
+}
+
+#notice .notice-left{
+  width: 49%;
+  float: left;
+}
+
+#notice .notice-right{
+  width: 49%;
+  float: right;
+}
+
+#notice .notice-list{
+  margin-top: 50px;
+}
+#notice .notice-list ul li{
+  height: 40px;
+  width: 100%;
+  color: #3ca2a2;
+  background-color: #fff;
+  border-bottom: 1px solid #56bbc7;
+  position: relative;
+  line-height: 40px;
+  padding-left: 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#notice .notice-list ul li:nth-child(5){
+  border-bottom: none;
+}
+
+
+#notice .notice-list ul li i{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 39px;
+  width: 40px;
+  background-color: #bf0a11;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 24px;
+}
+
+#notice .notice-list .slide-up-btn {
+  color: #cc0611;
+  padding-top: 25px;
+  font-size: 18px;
+  display: block;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#notice .notice-right .fade {
+  padding: 5px 10px;
+  background: #215a6d;
+  display: inline-block;
+  color: #fff;
+  margin-top: 13px;
+  border-radius: 4px;
+  margin-left: 180px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: .2s;
+}
+
+#notice .notice-right .fade:hover{
+  background: transparent;
+  color: #215a6d;
+  border: 2px solid #215a6d;
+}
+#notice .notice-right img{
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+/*=====NOTICE BOARD SECTION END=====*/
+
+/*=====NEWS AND EVENTS SECTION START=====*/
+
+#news{
+  padding-top: 65px;
+}
+
+#news .news-part{
+  width: 30%;
+  float: left;
+  margin-left: 45px;
+}
+
+#news .news-part:nth-child(1){
+  margin-left: 0;
+}
+
+#news .news-part h2{
+  border-bottom: 2px solid #eaeaea;
+}
+
+#news .news-content{
+  margin-top: 40px;
+}
+
+#news .news-content h4{
+  font-size: 20px;
+  color: #3ca2a2;
+  margin-bottom: 5px;
+}
+
+#news .news-part1{
+  border-bottom: 2px solid #dfece6;
+  padding-bottom: 35px;
+}
+
+#news .news-part2{
+  padding-top: 35px;
+}
+
+#news .news-part1 p{
+  color: #215a6d;
+  font-size: 15px;
+}
+
+#news .news-content i{
+  color: #cc0611;
+  padding-right: 5px;
+  
+}
+
+#news .news-content a{
+  color: #3ca2a2;
+  margin-top: 40px;
+  display: block;
+}
+
+#news .news-content ul {
+  padding-bottom: 46px;
+}
+
+#news .news-content ul li {
+  color: #215a6d;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+#news .news-content ul li i{
+  padding-right: 10px;
+}
+
+#news .news-img {
+  padding-bottom: 60px;
+}
+
+#news .news-content img {
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+
+/*=====NEWS AND EVENTS SECTION END=====*/
+
+/*=====DOCTORS SECTION START=====*/
+
+#doctors{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#doctors h2{
+  border-bottom: 2px solid #eaeaea;
+}
+
+#doctors .all-dctr-btn{
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+#doctors .all-dctr-btn .dctrs-btn {
+  padding: 7px 15px;
+  background: #215a6d;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 7px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: .2s;
+}
+
+#doctors .all-dctr-btn .dctrs-btn:hover{
+  background: transparent;
+  border: 2px solid #215a6d;
+  color: #215a6d;
+}
+
+#doctors .all-doctors{
+  margin-top: 40px;
+}
+
+#doctors .doctor-info img {
+  width: 100%;
+}
+
+#doctors .doctor-info{
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
+
+#doctors .doctor-info:nth-child(1){
+  margin-left: 0;
+}
+
+#doctors .doctor-info h3{
+  font-size: 20px;
+  color: #3ca2a2;
+  padding: 7px 0;
+}
+
+#doctors .doctor-info p{
+  font-size: 15px;
+  color: #878787;
+}
+
+#doctors .doctor-info h5{
+  font-size: 16px;
+  color: #cf0511;
+  margin-top: 5px;
+}
+
+
+/*=====DOCTORS SECTION END=====*/
+
+/*======SUB FOOTER START=====*/
+
+.sub-footer{
+  background: #222222;
+  padding: 23px 0 45px 0;
+}
+
+.sub-footer .sub-heading span{
+  font-size: 28px;
+  color: #3ca2a2;
+  padding-left: 15px;
+}
+
+.sub-footer .sub-menu{
+  margin-top: 45px;
+}
+
+.sub-footer .sub-items{
+  width: 25%;
+  float: left;
+}
+
+.sub-footer .sub-items h4{
+  font-size: 20px;
+  color: #3ca2a2;
+  margin-bottom: 15px;
+}
+
+.sub-footer .sub-items ul li i{
+  padding-right: 5px;
+  color: #cc0611;
+}
+
+.sub-footer .sub-items ul li{
+  line-height: 30px;
+  color: #fff;
+}
+
+
+/*======SUB FOOTER END=====*/
+
+/*======FOOTER SECTION START=====*/
+
+#footer{
+  background: #cc0611;
+}
+
+#footer p{
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+#footer p a{
+  color: #111;
+}
+
+/*======FOOTER SECTION END=====*/
